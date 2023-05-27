@@ -7,18 +7,18 @@
   <meta name="viewport" content="width=device-width, initiale-scale=1">
   <meta name="keywords" content="">
   <link rel="stylesheet" type="text/css" href="app/css/styles.css">
-  <link rel="stylesheet" href="app/fonts/Stolzl/Stolzl-Regular.woff"><link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body> 
   <div class="wrapper">
     <header> 
       <div class="header__overlay"></div>
       <div class="header__wrap"> 
-        <div class="nav"> <img class="logo" src="app/img/header/logo-icon.svg" alt=""><a class="header__project-discussion">Обсудить проект</a></div>
+        <div class="nav"><a class="link-logo" href="index.html"><img class="logo" src="app/img/header/logo-icon.svg" alt=""><a class="header__project-discussion">Обсудить проект</a></a></div><a name="header"></a>
         <div class="main-block-text"> 
           <div class="h4">NOTERCLAVE</div>
           <div class="central_text">Web-development</div>
-          <div class="block-dev_and_studio"> <a class="dev"> Разработка</a><a class="design">Дизайн</a><a class="seo">SEO</a></div><a class="free_consult">Заказать бесплатную консультацию</a>
+          <div class="block-dev_and_studio"> <a class="dev"> Разработка</a><a class="design">Дизайн</a><a class="seo">SEO</a></div><a class="free_consult">Заказать бесплатную консультацию
+            <div class="free_consult__overlay"></div></a><a id="ancor" href="#header"><img src="../../../app/img/ancor.png" alt=""></a>
         </div>
       </div>
     </header>
@@ -130,7 +130,43 @@
         </div>
       </div>
     </div>
+    <div class="project-describe-contacts">
+      <div class="project-describe-contacts__wrap"> 
+        <div class="project-describe-contacts__block-question"> 
+          <p class="question"> Расскажите о своем 			</p>
+          <p class="project"> Проекте</p><img src="../../../app/img/project-describe-contacts/Rectangle 537.png" alt="">
+        </div>
+        <form class="contacts-form"> 
+          <div class="block-inputs">
+            <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="имя">
+            <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Телефон">
+          </div>
+          <div class="block-inputs">
+            <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Почта">
+            <input class="captcha" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="место под капчу">
+          </div>
+          <select class="budget" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Бюджет">
+            <option>Бюджет</option>
+            <option></option>
+            <option></option>
+            <option></option>
+          </select>
+          <div class="block-submit-privacy"> 
+            <p class="privacy"> Вы соглашаетесь с обработкой персональных данных</p><a class="submit-button">Отправить</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__wrap"> 
+        <ul class="footer__links"> 
+          <li><a class="footer__link" href="#">Портфолио</a></li>
+          <li><a class="footer__link" href="#">Контакты</a></li>
+          <li><a class="footer__logo" href="index.html"> <img class="logo-icon" src="app/img/logo.png" alt="">
+              <div class="years">2018-2023</div></a></li>
+          <li><a class="footer-project" href="#">Обсудить проект</a></li>
+        </ul>
+      </div>
+    </footer>
   </div>
 </body>
-<script src="app/js/tab.js"> </script>
-<script src="app/js/techrider-open-menu.js"> </script>
