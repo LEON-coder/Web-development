@@ -6,8 +6,9 @@
   <meta http-eqiv="X-UA-Compatible" content="IE = edge">
   <meta name="viewport" content="width=device-width, initiale-scale=1">
   <meta name="keywords" content="">
-  <link rel="stylesheet" type="text/css" href="app/css/styles.css">
-</head>
+  <link rel="stylesheet" type="text/css" href="app/css/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+</head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
 <body> 
   <div class="wrapper">
     <header> 
@@ -18,7 +19,7 @@
           <div class="h4">NOTERCLAVE</div>
           <div class="central_text">Web-development</div>
           <div class="block-dev_and_studio"> <a class="dev"> Разработка</a><a class="design">Дизайн</a><a class="seo">SEO</a></div><a class="free_consult">Заказать бесплатную консультацию
-            <div class="free_consult__overlay"></div></a><a id="ancor" href="#header"><img src="../../../app/img/ancor.png" alt=""></a>
+            <div class="free_consult__overlay"></div></a><a id="ancor" href="#header"><img src="app/img/ancor.png" alt=""></a>
         </div>
       </div>
     </header>
@@ -138,18 +139,18 @@
         </div>
         <form class="contacts-form"> 
           <div class="block-inputs">
-            <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="имя">
+            <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Имя">
             <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Телефон">
           </div>
           <div class="block-inputs">
             <input id="name" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Почта">
             <input class="captcha" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="место под капчу">
           </div>
-          <select class="budget" type="text" name="Имя" required="" minlength="4" maxlength="8" size="10" placeholder="Бюджет">
+          <select class="budget" type="text" placeholder="Бюджет"> 
             <option>Бюджет</option>
-            <option></option>
-            <option></option>
-            <option></option>
+            <option>50 000</option>
+            <option>100 000</option>
+            <option>150 000</option>
           </select>
           <div class="block-submit-privacy"> 
             <p class="privacy"> Вы соглашаетесь с обработкой персональных данных</p><a class="submit-button">Отправить</a>
@@ -160,11 +161,11 @@
     <footer>
       <div class="footer__wrap"> 
         <ul class="footer__links"> 
-          <li><a class="footer__link" href="#">Портфолио</a></li>
-          <li><a class="footer__link" href="#">Контакты</a></li>
-          <li><a class="footer__logo" href="index.html"> <img class="logo-icon" src="app/img/logo.png" alt="">
+          <li class="footer__item"><a class="footer__link" href="../../../../pages/portfolio.html">Портфолио</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+          <li class="footer__item"><a class="footer__logo" href="index.html"> <img class="logo-icon" src="app/img/logo.png" alt="">
               <div class="years">2018-2023</div></a></li>
-          <li><a class="footer-project" href="#">Обсудить проект</a></li>
+          <li class="footer__item"><a class="footer-project" href="#">Обсудить проект</a></li>
         </ul>
       </div>
     </footer>
