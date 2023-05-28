@@ -1,3 +1,2 @@
 # Web-development
-
-# Web-development
+Сверстанный сайт без адаптации
