@@ -1,7 +1,7 @@
 // Select all links with hashes
-$('a[href*="#header"]')
+$('a[href*="#"]')
 	// Remove links that don't actually link to anything
-	.not('[href="#header"]')
+	.not('[href="#"]')
 	.not('[href="#0"]')
 	.on('click',function (event) {
 		// On-page links
